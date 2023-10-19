@@ -4,7 +4,7 @@ import { UnlockIcon } from "@chakra-ui/icons";
 export default function Footer() {
   return (
     <Box bg="black" h="100vh">
-        <Flex as="nav" justify='space-around'>
+        <Flex as="nav" justify='space-around' pb={20}>
             <Box>
                 <Heading as='h6' size="sm" color="white" m={12}>Abstract</Heading>
                 <Text fontSize="xs" color="white" m={10}>Branches</Text>

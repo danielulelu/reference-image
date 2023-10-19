@@ -1,0 +1,31 @@
+{
+    "branch": [
+        {
+            "id": 1,
+            "title": "Branches",
+            "desc":"Abstract branches lets you manage, version and document your designs in one place."      
+        },
+        {
+            "id": 2,
+            "title":"Manage your account",
+            "desc":"Configure your account settings, such as your email, profile details and password."
+        },
+        {
+            "id": 3,
+            "title":"Manage organizations, teams and projects",
+            "desc":"Use Abstract organizations, teams, and projects to organize your people and your work."
+        },
+        {
+            "id": 4,
+            "title":"Manage billing",
+            "desc":"Change subscriptions and payment details."
+        },
+        {
+            "id": 5,
+            "title":"Authenticate to Abstract",
+            "desc":"Set up and configure SSO, SCIM, and Just-in-Time provisioning."
+
+        }
+    ]
+ 
+}
