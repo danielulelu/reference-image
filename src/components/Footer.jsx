@@ -1,10 +1,10 @@
 import { Box, Flex, Heading, Spacer, Text } from '@chakra-ui/react';
-
+import { UnlockIcon } from "@chakra-ui/icons";
 
 export default function Footer() {
   return (
     <Box bg="black" h="100vh">
-        <Flex as="nav" justify='space-even'>
+        <Flex as="nav" justify='space-around'>
             <Box>
                 <Heading as='h6' size="sm" color="white" m={12}>Abstract</Heading>
                 <Text fontSize="xs" color="white" m={10}>Branches</Text>
@@ -32,7 +32,17 @@ export default function Footer() {
                 <Text color="white" fontSize="xs" ml={12}>About Us</Text>
                 <Text color="white" fontSize="xs" ml={12}>Careers</Text>
                 <Text color="white" fontSize="xs" ml={12}>Legal</Text>
-                <Text as="b" color="white" fontSize="xs" m={12}>Contact Us</Text>
+                <Box pt={10}>
+                    <Text as="b" color="white" fontSize="xs" ml={12}>Contact Us</Text>
+                    <Text color="white" fontSize="xs" ml={12}>info@abstract.com</Text>
+                </Box>
+            </Box>
+        </Flex>
+
+        <Flex justify='center' pt={10}>
+            <Box align='center' textAlign='center'>
+                <UnlockIcon color="white" fontSize="xs"/>
+                <Text as='p' color="white">&copy; Copyright 2022<br />Abstract Studio Design, Inc.<br />All rights reserved</Text>
             </Box>
         </Flex>
     </Box>
